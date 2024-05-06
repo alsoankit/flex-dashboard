@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 7%;
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgba(255, 255, 255, 0.381);
+  margin: 8px;
+  padding-left: 5px;
+}
+ul{
+  margin-left: 10%;
+  color: rgba(209, 204, 204, 0.623);
+  padding: 5px;
+  padding-top: 20px;
+}
+li{
+  list-style: disc;
+}
+div{
+  border: solid none;
+  background-color: rgb(32,32,32);
+  margin: 5px;
+  padding: 5px;
+  border-radius: 3%;
+  height: 275px;
+  width: 200px;
+}
